@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import Layout from "@components/layout";
 import Table, { TableCell, TableRow } from "@components/table";
 import api from "@/util/api";
-import { isLoggedIn } from "@/util/auth";
-import redirectTo from "@/util/redirectTo";
-import withAuth from "@components/withAuth";
+import { isLoggedIn } from "../util/auth";
+import redirectTo from "../util/redirectTo";
+import withAuth from "../util/withAuth";
 
 const Home = ({ user }) => {
   const [grades, setGrades] = useState([]);

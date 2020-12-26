@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import AuthIndicator from "@components/AuthIndicator";
-import withAuth from "@components/withAuth";
+import AuthIndicator from "../util/AuthIndicator";
+import withAuth from "../util/withAuth";
 
 const Layout = ({ user, children }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
