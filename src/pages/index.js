@@ -11,10 +11,10 @@ const Home = ({ user }) => {
 
   useEffect(() => {
     api()
-      .post("/api/get-all-city")
+      .post("/api/get-all-major")
       .then((response) => {
-        console.log(response.data.data.data);
-        setGrades(response.data.data.data);
+        console.log(response.data);
+        setGrades(response.data);
       });
 
     console.log(user);

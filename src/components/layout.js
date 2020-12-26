@@ -94,7 +94,6 @@ const Layout = ({ user, children }) => {
             </div>
           </div>
         </div>
-
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
@@ -107,21 +106,18 @@ const Layout = ({ user, children }) => {
             >
               Dashboard
             </a>
-
             <a
               href="#"
               className="block px-3 py-2 rounded-md text-base font-medium text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700"
             >
               Tickets
             </a>
-
             <a
               href="#"
               className="block px-3 py-2 rounded-md text-base font-medium text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700"
             >
               Calendar
             </a>
-
             <a
               href="#"
               className="block px-3 py-2 rounded-md text-base font-medium text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700"
@@ -131,7 +127,6 @@ const Layout = ({ user, children }) => {
           </div>
         </div>
       </nav>
-
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold leading-tight text-indigo-900">
@@ -139,7 +134,6 @@ const Layout = ({ user, children }) => {
           </h1>
         </div>
       </header>
-
       <main>
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">{children}</div>
       </main>
